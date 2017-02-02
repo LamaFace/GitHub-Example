@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     // Variable declarations
-    string name, color;
+    string name, color, time;
 
     // Output and input
     cout << "Hello, what is your name? ";
@@ -14,8 +14,13 @@ int main()
     cout << "What is your favorite color? ";
     cin >> color;
 
+	cout<< "what is your favorite time of day?"
+
     cout << endl;
-    cout << "So can I call you " << color << " " << name << "?" << endl;
+    cout << "So can I call you " << time <<" "<< color << " " << name << "?" << endl;
+
+	// test 1 2 3
 
     return 0;
 }
+
